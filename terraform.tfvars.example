@@ -1,0 +1,12 @@
+# Copy this file to terraform.tfvars and fill in your actual values
+# terraform.tfvars is gitignored and will not be committed
+
+# Cloudflare Configuration
+cloudflare_zone_id   = "your-cloudflare-zone-id-here"
+cloudflare_api_token = "your-cloudflare-api-token-here"
+
+# Google Cloud Configuration (optional override)
+# google_project_id = "709817050082"
+
+# Domain Configuration (optional override)
+# domain = "kattakath.com"
