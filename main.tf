@@ -55,12 +55,13 @@ resource "cloudflare_record" "root_a" {
 }
 
 resource "cloudflare_record" "www_cname" {
-  zone_id = var.cloudflare_zone_id
-  name    = "www"
-  type    = "CNAME"
-  content = "kattakath.com"
-  proxied = false
-  comment = "Redirect www to root domain"
+  zone_id         = var.cloudflare_zone_id
+  name            = "www"
+  type            = "CNAME"
+  content         = "kattakath.com"
+  proxied         = false
+  comment         = "Redirect www to root domain"
+  allow_overwrite = true
 }
 
 resource "cloudflare_record" "firebase_verification" {
