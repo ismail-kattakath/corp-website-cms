@@ -22,7 +22,7 @@ provider "cloudflare" {
 resource "google_firebase_hosting_site" "default_site" {
   provider = google-beta
   project  = var.google_project_id
-  site_id  = "kattakath-technologies-inc"
+  site_id  = "corp-core-hub"
 }
 
 resource "google_firebase_hosting_site" "site" {
