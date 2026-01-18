@@ -4,9 +4,8 @@
     "base_url": "https://kattakath.com",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
+    "favicon": "/favicon.ico",
+    "logo": "/images/logo.svg",
     "logo_width": "200",
     "logo_height": "40",
     "logo_text": "Kattakath Technologies"
@@ -15,7 +14,7 @@
   "settings": {
     "search": true,
     "sticky_header": true,
-    "theme_switcher": true,
+    "theme_switcher": false,
     "default_theme": "light",
     "pagination": 6,
     "summary_length": 200,

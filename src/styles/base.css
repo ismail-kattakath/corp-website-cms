@@ -1,9 +1,9 @@
 html {
-  @apply text-base-sm md:text-base;
+  @apply text-base-sm md:text-base scroll-smooth overflow-x-hidden;
 }
 
 body {
-  @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text;
+  @apply bg-body text-base font-primary font-normal leading-relaxed text-text overflow-x-hidden;
 }
 
 h1,
@@ -60,4 +60,12 @@ blockquote > p {
 
 button {
   @apply cursor-pointer;
+}
+
+a {
+  @apply transition-colors duration-200;
+}
+
+a:hover {
+  @apply text-brand-primary dark:text-darkmode-brand-primary;
 }

@@ -1,12 +1,11 @@
 import { useEffect, useState } from "react";
 
 const useTheme = (): string => {
-  const [themeValue, setThemeValue] = useState("");
+  const [themeValue, setThemeValue] = useState("light");
 
   useEffect(() => {
-    setThemeValue(
-      document.documentElement.classList.contains("dark") ? "dark" : "light",
-    );
+    // Lite theme always returns "light"
+    setThemeValue("light");
   }, []);
 
   return themeValue;

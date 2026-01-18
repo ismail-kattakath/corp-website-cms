@@ -1,5 +1,5 @@
 .header {
-  @apply bg-body dark:bg-darkmode-body py-6;
+  @apply bg-body dark:bg-darkmode-body py-4 md:py-6;
 }
 
 /* navbar items */
@@ -8,7 +8,7 @@
 }
 
 .navbar-brand {
-  @apply text-text-dark dark:text-darkmode-text-dark text-xl font-semibold;
+  @apply text-text-dark dark:text-darkmode-text-dark text-xl font-semibold transition-opacity duration-200 hover:opacity-80;
   image {
     @apply max-h-full max-w-full;
   }
@@ -19,7 +19,7 @@
 }
 
 .nav-link {
-  @apply text-text-dark hover:text-primary dark:text-darkmode-text-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-semibold transition lg:px-2 lg:py-3;
+  @apply text-text-dark hover:text-primary hover:bg-light hover:rounded dark:text-darkmode-text-dark dark:hover:text-darkmode-primary dark:hover:bg-darkmode-light block p-3 cursor-pointer font-semibold transition lg:px-2 lg:py-3;
 }
 
 .nav-dropdown {
@@ -31,7 +31,7 @@
 }
 
 .nav-dropdown-list {
-  @apply bg-body dark:bg-darkmode-body z-10 min-w-[180px] rounded p-4 shadow-sm;
+  @apply bg-body dark:bg-darkmode-body z-10 min-w-[180px] rounded-lg p-2 shadow-lg border border-border dark:border-darkmode-border;
 }
 
 .nav-dropdown-item {
@@ -39,7 +39,7 @@
 }
 
 .nav-dropdown-link {
-  @apply text-text-dark hover:text-primary dark:text-darkmode-text dark:hover:text-darkmode-primary block py-1 font-semibold transition;
+  @apply text-text-dark hover:text-primary hover:bg-light dark:text-darkmode-text dark:hover:text-darkmode-primary dark:hover:bg-darkmode-light block py-2 px-3 rounded font-semibold transition-colors;
 }
 
 /* theme-switcher */
