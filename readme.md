@@ -146,3 +146,16 @@ Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon
 ## 💻 Need Custom Development Services?
 
 If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/).
+
+
+## CI/CD Pipeline Testing
+
+This line was added to test the automated CI/CD pipeline. The expected flow:
+
+1. ✅ GitHub Actions CI runs automatically on this PR
+2. ✅ Application build and tests execute
+3. ✅ Terraform validation and dry-run plan
+4. ✅ Security scanning completes  
+5. ✅ All checks must pass before merge is allowed
+6. ✅ After merge: Terraform Cloud auto-applies changes
+
