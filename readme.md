@@ -159,3 +159,4 @@ This line was added to test the automated CI/CD pipeline. The expected flow:
 5. ✅ All checks must pass before merge is allowed
 6. ✅ After merge: Terraform Cloud auto-applies changes
 
+# Trigger fresh Terraform deployment after state cleanup
